@@ -1,0 +1,29 @@
+{
+  "author": "QUT Bioacoustics",
+  "name": "test-audio-tools",
+  "version": "0.0.1",
+  "description": "Tests for command line programs that work with audio files.",
+  "licenses": {
+    "type": "MIT",
+    "url": "https://github.com/QutBioacoustics/test-audio-tools/blob/master/LICENSE"
+  },
+  "bugs": "https://github.com/QutBioacoustics/test-audio-tools/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QutBioacoustics/test-audio-tools.git"
+  },
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.11",
+    "tape": "~2.13.3",
+    "tap-dot": "~0.2.2",
+    "tap-spec": "~0.2.0"
+  },
+  "scripts": {
+    "test": "tape ./test/*.js | tap-spec"
+  }
+}
