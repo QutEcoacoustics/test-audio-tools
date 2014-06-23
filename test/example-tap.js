@@ -47,6 +47,6 @@ test('run sox', function (t) {
         });
         return child;
 
-    }, {sox: 'sox'}, {more: 'more'});
+    }, {sox: 'sox'}, {more: 'more'}, {extra: 'extra'});
     t.end();
 });
